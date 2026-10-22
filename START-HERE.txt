@@ -1,0 +1,23 @@
+ALOUKIK SHARMA — PORTFOLIO (complete source)
+
+Run it on your computer
+  1. Install Node.js (nodejs.org) or Bun (bun.sh).
+  2. Open this folder in a terminal.
+  3. Run:  npm install      (or: bun install)
+  4. Run:  npm run dev      (or: bun run dev)
+  5. Open the address it prints (usually http://localhost:8080).
+
+Where things live
+  src/data/portfolio.ts          all text, links and the 45 projects
+  src/components/portfolio/      the five scenes, menu, cursor, project list
+  src/styles.css                 colours, fonts, effects
+  public/fonts/                  Osake brush font
+  src/assets/                    brush stroke + mountain images
+  photo/aloukik-sharma.jpg       your original photo
+
+About the photo
+  On the live site your photo is served from Lovable's image hosting.
+  To run the site somewhere else, copy photo/aloukik-sharma.jpg into
+  public/ and in src/data/portfolio.ts set:
+    export const PHOTO_SRC = "/aloukik-sharma.jpg";
+  (and delete the photoAsset import line at the top of that file).
